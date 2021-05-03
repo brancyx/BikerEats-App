@@ -24,10 +24,29 @@ dependencies:
   flutter:
     sdk: flutter
 
+  sliding_up_panel: ^1.0.2
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
-  cupertino_icons: ^1.0.2
+  cupertino_icons: ^1.0.0
+  fluttertoast: ^7.1.8
+  firebase_core: ^0.7.0
+  firebase_auth: ^0.20.0+1
+  firebase_database: ^6.0.0
+  cloud_firestore: ^0.16.0
+  google_maps_flutter: ^1.2.0
+  geolocator: ^6.2.0
+  http: ^0.12.2
+  provider: ^4.3.3
+  flutter_polyline_points: ^0.2.4
+  flutter_spinkit: "^4.0.0"
+  geocoding: ^1.0.2
+  android_intent: ^2.0.0
+  expandable_group: ^0.0.7
+  sort: ^0.0.1
+  flutter_rating_bar: ^4.0.0
+  flutter_star_rating: ^0.0.2
+  image_picker: ^0.6.7+4
 
 dev_dependencies:
   flutter_test:
@@ -45,9 +64,43 @@ flutter:
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
-  # assets:
-  #   - images/a_dot_burr.jpeg
-  #   - images/a_dot_ham.jpeg
+  assets:
+    - images/logo.png
+    - images/greentick.jpg
+    - images/starticon.png
+    - images/endicon.png
+    - assets/bicycle-rack.geojson
+    - images/bicycleRackIcon.png
+    - images/macs.jpg
+    - images/playmade.jpeg
+    - images/astons.jpeg
+    - images/4 fingers.png
+    - images/ajisen.png
+    - images/genki.png
+    - images/kfc.png
+    - images/llao llao.png
+    - images/pepper lunch.png
+    - images/pizza hut.png
+    - images/popeyes.png
+    - images/srisun.png
+    - images/stuff'd.jpeg
+    - images/subway.png
+    - images/sushi express.png
+    - images/wok hey.jpeg
+    - images/profilepic.png
+    - images/jp_rp.png
+    - images/ap_ecp.png
+    - images/fh_wcp.png
+    - images/rp_th.png
+    - images/mb_fcp.png
+    - images/cp_sz.png
+    - images/cp_szoo.png
+    - images/choacp_szoo.png
+    - images/ccp_sz.jpg
+    - images/bran.jpg
+    - images/Din-Tai-Fung.jpg
+ 
+
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
