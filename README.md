@@ -4,6 +4,8 @@ Bikereats is a mobile application which allows cyclists to plan their routes bas
 
 Done in collaboration with Min, Liang Yi, Carissa, Shannon and Alicia.
 
+*Note: Google Maps API no longer maintained after expiry of free trial. Include your own API key to continue using.
+
 ## Example
 <img src="images/login.png" width="200"> <img src="images/trending.png" width="200"> <img src="images/routeinfo.png" width="200"> <img src="images/directions.png" width="200"> 
 
